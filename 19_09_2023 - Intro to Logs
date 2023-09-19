@@ -1,0 +1,78 @@
+Today I am curious about computer logging. I started playing around with Geektool and there's a log feed desktop widget. Curious about my own logs, I enabled it. I asked ChatGPT how I could check my own logs on MacOS. It recommended Console app. I enabled logging of both my Mac Mini and my iPhone. I was astounded by the volume of logs! So many logs! 66,964 messages in 6 minutes of tracking. Why does a computer put out this high voluem of logs and how does anyone keep on track of all this?? Turns out there are always processes runing and generating logs. All of the time. 
+
+Logs are used for: 
+  System monitoring
+  Error reporting
+  Debugging
+  Security monitoring
+  Performance optimization
+
+I'm tailoring my learning to have a security focus, so I wanted to understand what sort of information or log 'types', if you will, do cyber security professionals look for. Back to ChatGPT! 
+
+Cyber sec professionals look for these log types:
+
+  Authentication 
+    Successful logins
+    Failed logins
+    Account lockouts
+    
+  Firewall
+    Traffic 
+    Denied connections
+    Port scanning activity
+    
+  Intrustion Detectioni System (IDS_ and Intrustion Prevention System (IPS) 
+    Alerts
+    Blocked atacks
+    
+  Antivirus and anti-malware 
+    Detection events
+    Quarantine actions
+    
+  Web server
+    Access
+    Error 
+    HTTP Response codes
+    
+  Email
+    DNS queries
+    DNS responses
+    
+  Operating system logs
+    Security events
+    System events
+  Endpoint security
+    Endpoint activity
+    Alerts
+    
+  Security Information and Event Management (SIEM)
+    Aggregated logs
+    Incident alerts
+    
+  Authentication and authorization logs for privileged accounts
+    Changes to privileges
+    Access to sensitive resources
+    
+  User and entity Behavior Analytics (UEBA)
+    User behavior patterns
+    Anomalous access patterns
+
+:::I'm embarking on the Intro to Logs course on Tryhackme to get some foundational knowledge:::
+
+A log entry usually includes the following information:
+
+  - Timestamp of when an event was logged
+  - Name of the system or application that generated the log 
+  - Type of event
+  - Additional details, such as the user who initiated the event or the         device's IP address that generated the event
+
+Logs can answer critical questions about an event, such as:
+
+  - What happened?
+  - When did it happen?  
+  - Where did it happen?
+  - Who is responsible?
+  - Were their actions successful?
+  - What was the result of their action?
+
+...
